@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+    text-align: left;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.header {
+    padding: 20px;    
+    background-color: rgb(0, 0, 0);
+    
+
+  
+}
+
+.logo, .social, .nav {
+    padding: 20px;
+    background-color: salmon;
+}
+
+.logo, .social {
+    flex: 1; 
+}
+
+.nav {
+    flex: 3; 
+}
+
+.banner {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 20px solid rgb(252, 187, 6);
+    background-color: rgb(236, 82, 21);
+}
+
+.content {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+
+ 
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; /* Espaciado entre elementos */
+    flex: 3;
+    padding: 20px;
+    background-color: rgb(241, 24, 194);
+}
+
+.articles > * {
+    flex: 1 1 calc(50% - 20px); 
+}
+
+.article {
+    background-color: steelblue;
+    padding: 20px;
+}
+
+.navigation {
+    grid-column: span 2;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.advertisement {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: salmon;
+}
+
+.ad {
+    background-color: yellow;
+    padding: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: rgb(245, 255, 60);
+    padding: 20px;
+    border: 15px solid rgb(0, 0, 0);
+}
+
