@@ -68,20 +68,21 @@ nav {
     flex-wrap: wrap; 
     gap: 20px;
     flex: 2;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(235, 148, 216);
 }
 
 .article {
     background-color: steelblue;
-    padding: 10px;
+    padding: 20px;
     flex: 1 1 calc(50% - 20px);
-    box-sizing: border-box;
+   
 }
 
 .navigation {
     background-color: lightblue;
-    padding: 10px;
+    gap: 20px;
+    padding: 20px;
     flex: 1;
     
 }
@@ -105,7 +106,7 @@ nav {
     margin-top: 20px;
     background-color: rgb(245, 255, 60);
     padding: 20px;
-    border: 15px solid rgb(0, 0, 0);
+    border: 20px solid rgb(0, 0, 0);
 }
 
 
