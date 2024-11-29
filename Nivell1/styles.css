@@ -110,3 +110,37 @@ nav {
 }
 
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header nav {
+        display: flex;
+        flex-direction: column;
+      
+       
+    }
+
+    .header nav > div {
+        width: 100%;        
+        text-align: left;
+    }
+ 
+    .container{
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .articles {
+       
+       
+        justify-content:space-between;
+    }
+}
+
+
